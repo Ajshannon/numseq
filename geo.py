@@ -2,6 +2,7 @@ def square(n):
     result = 1
     for i in range(n):
         result = result * n
+    return result
 
 
 def triangle(n):
@@ -12,4 +13,4 @@ def triangle(n):
 
 
 def cube(n):
-    return n*n*n
+    return n * n * n
