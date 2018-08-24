@@ -1,8 +1,5 @@
 def square(n):
-    result = 1
-    for i in range(n):
-        result = result * n
-    return result
+    return n*n
 
 
 def triangle(n):
